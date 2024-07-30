@@ -1,0 +1,294 @@
+header img{
+  width: 100%;
+}
+
+body{
+  font-family: "Raleway", sans-serif
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg{
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.picture{
+  float:right ;
+  padding:45spx;
+  margin-left: 40px;
+}
+
+.picture h1{
+  overflow:hidden;
+  position: absolute;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: -18%;
+  margin-left: 15px;
+}
+
+.picture h2{
+  overflow:hidden;
+  position: absolute;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: -11%;
+  margin-left: 20%;
+}
+
+.about{
+  margin-top: 25%;
+}
+
+.about h2{
+  text-align: center;
+}
+
+.about p{
+  text-align: center;
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box{
+  display: flex;
+  flex-direction:row;
+  font-size:large;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.topic{
+  margin-left: 10%;
+}
+
+.topic i{
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.topic h1{
+  text-align: center;
+}
+
+.cast{
+  display: flex;
+  flex-direction:row;
+  background-color: rgb(202, 197, 197);
+  padding: 40px;
+}
+
+.clothes h3,h1{
+  margin-left: -20px;
+}
+
+.clothes img{
+  margin-left: 50px;
+  padding: 20px;
+  border-style:ridge;
+}
+
+.clothes button{
+  padding: 10px;
+  background-color: black;
+  color: whitesmoke
+}
+
+.group{
+  display: flex;
+  flex-direction: row;
+}
+
+.line{
+  display: flex;
+  flex-direction:row;
+  background-color:rgb(219, 213, 213);
+  padding: 20px;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.quality{
+  margin-left: 10%;
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.navbar a:hover {
+  background-color: black;
+  color:white;
+}
+
+.top{
+  margin-left: 65%;
+}
+
+header{
+  background-color: white;
+  padding:large;
+  margin-top: 20px;
+  opacity: 30px;
+}
+
+header:hover{
+  opacity:off;
+}
+
+.view{
+  display:grid;
+  grid-template-columns: 50% auto 10%;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.section{
+  padding:128px 16px;
+}
+
+.section h2,h3{
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: center;
+
+}
+
+.images{
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto;
+  margin-top: 20px;
+}
+
+.half img{
+  padding: 5px;
+}
+
+.half p{
+  display: flex;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: center;
+}
+
+.comment{
+  font-size: medium;
+}
+
+.comment ul{
+  list-style-type: none;
+}
+
+.comment i{
+  margin-right: 10px;
+}
+
+.percentage{
+  margin-top: 55px;
+  font-size: larger;
+}
+
+.grey{
+  border-style:hidden;
+}
+
+.dark-grey{
+  background-color: darkgray;
+  font-size: medium;
+  text-align: center;
+  color: black;
+  padding: 5px;
+}
+
+.info p{
+  font-size: x-large;
+  color: rgb(70, 61, 61);
+}
+
+.info p i{
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+.location{
+  width:100%;
+  margin-top:48px"
+}
+
+form {
+  color: rgb(70, 61, 61);
+}
+
+.fill{
+  width: 95%;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.dbutton{
+  font-size: medium;
+  display: flex;
+  margin-left: 20px;
+  padding:10px;
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+
+.topbutton{
+  font-size: medium;
+  display: flex;
+  margin-left: 40%;
+  margin-top: 20px;
+  padding:15px;
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  
+}
+
+footer{
+  background-color: black;
+  padding:15px;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
